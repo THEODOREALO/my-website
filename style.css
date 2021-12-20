@@ -1,0 +1,59 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 40px;
+}
+/* Home Page */
+#navbar{
+    float: right;
+    list-style: none;
+}
+#navbar li{
+    display: inline-block;
+    margin-right: 5px;
+}
+#my-name{
+    float: left;
+    font-weight: 800;
+    
+}
+header{
+    padding: 5px;
+    height: 8.5vh;
+}
+header:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+header > *:hover{
+    cursor: pointer;
+}
+#home-page-left{
+    transform: translateY(10vh);
+    float: left;
+    text-align: center;
+}
+#intro{
+    font-size: xx-large;
+    font-weight: 500;
+}
+#outro{
+    font-size: larger;
+    font-weight: 500;;
+}
+#left-bottom{
+    transform: translateY(15vh);
+}
+#github{
+    background-color: #688E26;
+}
+#linkedin{
+    background-color: #348cd4;
+}
+#my-face{
+    float: right;
+    transform: translate(-10vw, 10vh);
+    border-radius: 50%;
+    width: 30%;
+    height: 40vh
+}
