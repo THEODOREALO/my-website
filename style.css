@@ -1,6 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    margin: 10px 40px;
+    
 }
 /* Home Page */
 #navbar{
@@ -10,6 +10,10 @@
 }
 #navbar li{
     display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 #my-name{
     font-size: 3vh;
@@ -64,6 +68,25 @@ header > *:hover{
     transform: translate(-10vw, 10vh);
     border-radius: 50%;
     width: 30%;
-    height: 40vh
+    height: 40vh;
+}
+#home-page{
+    overflow-y: hidden;
+    height: 100vh;
+    width: 90vw;
+    margin: 20px 80px; 
+}
+
+/* About Page */
+#about-page{
+    height: 100vh;
+    width: 90vw;
+    margin: 20px 80px; 
+}
+#about-page #class-year{
+    color: #18a0e9;
+}
+#ucsd-pic{
+    height: 60vh;
 }
 
