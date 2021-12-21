@@ -6,24 +6,33 @@
 #navbar{
     float: right;
     list-style: none;
+    padding: 5px;
 }
 #navbar li{
     display: inline-block;
-    margin-right: 5px;
 }
 #my-name{
+    font-size: 3vh;
     float: left;
     font-weight: 800;
-    
+    border: 4px solid black;
+    padding: 3px;
+    box-shadow: 5px 5px #C6B9CD, 9px 9px #721817;
 }
+#my-name:hover{
+    box-shadow: 0px 0px #C6B9CD, 0px 0px #721817;
+    transition: 0.5s;
+}
+
 header{
     padding: 5px;
     height: 8.5vh;
 }
-header:hover{
+#navbar:hover{
     background-color: black;
     color: white;
     transition: 0.3s;
+    
 }
 header > *:hover{
     cursor: pointer;
@@ -57,3 +66,4 @@ header > *:hover{
     width: 30%;
     height: 40vh
 }
+
