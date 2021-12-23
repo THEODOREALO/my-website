@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="flickity/flickity-docs.css" media="screen">
     </head>
     <body>
         <section id="home-page">
@@ -28,8 +29,8 @@
                 <div id="left-bottom">
                     <p>I am an aspiring software engineer.</p>
                     <p>Here are some links to my stuff:</p>
-                    <img src='images/github.png' id="github">
-                    <img src='images/linkedin.png' id="linkedin">
+                    <a href="https://github.com/THEODOREALOUCSD"><img src='images/github.png' id="github"></a>
+                    <a href="https://www.linkedin.com/in/theodore-alo-68827a225/"><img src='images/linkedin.png' id="linkedin"></a>
                 </div>
             </section>
             <img src='images/good_picture.jpg' id="my-face">
@@ -37,7 +38,18 @@
         <section id="about-page">
             <h1>I am currently a student at the University of California, San Diego</h1>
             <h2 id="class-year">Class of 2023!</h2>
-            <img src="images/image_handler.png" id="ucsd-pic">
+            <a href="https://cse.ucsd.edu/"><img src="images/image_handler.png" id="ucsd-pic"></a>
+            <script src="flickity/flickity-docs.min.js"></script>
+            <div class="gallery js-flickity">
+                <div class="gallery-cell">
+                    <p class="cell-title">CSE 110 Software Engineering</p>
+                    <p class="cell-text"></p>
+                </div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+                <div class="gallery-cell"></div>
+            </div>
         </section>
     </body>
    
