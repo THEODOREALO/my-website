@@ -87,13 +87,21 @@ header > *:hover{
 #about-page h1{
     font-size: 4vh;
 }
+#about-page h2{
+    font-size:3vh;
+}
 #about-page #class-year{
     color: #18a0e9;
+}
+#coursework-title{
+    transform: translateX(58vw);
+}
+#about-page #class-title{
+    float: right;
 }
 #ucsd-pic{
     height: 60vh;
     float:left;
-    
     padding: 30px;
 }
 #ucsd-pic:hover{
