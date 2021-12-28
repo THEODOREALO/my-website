@@ -153,6 +153,7 @@ header > *:hover{
     padding: 10px 20px;
     height: 80vh;
     width: 40vw;
+    float: left;
 }
 #experience h3{
     text-align: center;
@@ -163,6 +164,28 @@ header > *:hover{
 .job-title li{
     font-size: 1.7vh;
     font-weight:500;
+}
+#resume-right{
+    margin-right: 10px;
+    float: right;
+}
+#resume-right div{
+    width: 40vw;
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+}
+#resume-right div h3{
+    text-align: center;
+}
+#softwares{
+    transform: translateY(10vh);
+}
+#resume-right ul{
+    font-size: 3vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
 }
 
 
