@@ -73,12 +73,15 @@ header > *:hover{
 } 
 #home-page{
     overflow-y: hidden;
+    overflow-x: hidden;
     height: 100vh;
     width: 90vw;
     margin: 20px 80px; 
 }
 /* About Page */
 #about-page{
+    overflow-y: hidden;
+    overflow-x: hidden;
     height: 100vh;
     width: 90vw;
     margin: 20px 80px; 
@@ -92,9 +95,7 @@ header > *:hover{
 #about-page #class-year{
     color: #18a0e9;
 }
-#coursework-title{
-    transform: translateX(58vw);
-}
+
 #about-page #class-title{
     float: right;
 }
@@ -102,10 +103,12 @@ header > *:hover{
     height: 60vh;
     float:left;
     padding: 30px;
+    margin-left: 10px;
 }
 #ucsd-pic:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: 0.3s;
+    margin-left: 10px;
     cursor: pointer;
 }
 .gallery {
@@ -113,6 +116,7 @@ header > *:hover{
     border: 1px solid white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     float: right;
+    margin-right: 10px;
     width: 50%;
     height: 50%;
 }
@@ -135,3 +139,30 @@ header > *:hover{
 .cell-text{
     font-size: 2.5vh;
 }
+/* Resume */
+#resume-page{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 90vw;
+    margin: 20px 80px; 
+}
+#experience{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    height: 80vh;
+    width: 40vw;
+}
+#experience h3{
+    text-align: center;
+}
+#experience .job-title{
+    font-size: 2vh;
+}
+.job-title li{
+    font-size: 1.7vh;
+    font-weight:500;
+}
+
+
