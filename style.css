@@ -42,6 +42,11 @@ header{
 header > *:hover{
     cursor: pointer;
 }
+#home-info{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-left: 15vw;
+}
 #home-page-left{
     transform: translateY(10vh);
     float: left;
@@ -66,10 +71,7 @@ header > *:hover{
 }
 #my-face{
     float: right;
-    transform: translate(-5vw, 10vh);
-    width: 30%;
-    height: 40vh;
-    margin-left: 3vw;
+    transform: translate(10vw, 10vh);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 } 
 #home-page{
