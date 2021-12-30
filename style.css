@@ -1,6 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
-    
+    scroll-behavior: smooth;
 }
 /* Home Page */
 #navbar{
@@ -27,16 +27,17 @@
     box-shadow: 0px 0px #C6B9CD, 0px 0px #721817;
     transition: 0.5s;
 }
-
 header{
     padding: 5px;
     height: 8.5vh;
 }
-#navbar:hover{
+#navbar a{
+    text-decoration: none;
+}
+#navbar:hover, #navbar a:hover{
     background-color: black;
     color: white;
     transition: 0.3s;
-    
 }
 header > *:hover{
     cursor: pointer;
@@ -72,7 +73,7 @@ header > *:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 } 
 #home-page{
-    overflow-y: hidden;
+    
     overflow-x: hidden;
     height: 100vh;
     width: 90vw;
@@ -80,7 +81,7 @@ header > *:hover{
 }
 /* About Page */
 #about-page{
-    overflow-y: hidden;
+    
     overflow-x: hidden;
     height: 100vh;
     width: 90vw;
@@ -141,7 +142,7 @@ header > *:hover{
 }
 /* Resume */
 #resume-page{
-    overflow-y: hidden;
+    
     overflow-x: hidden;
     height: 100vh;
     width: 90vw;
@@ -235,4 +236,14 @@ header > *:hover{
     margin-right: 20px;
     font-size: 2.3vh;
     color: white;
+}
+/* Misc page */
+#misc-page{
+    height: 100vh;
+    width: 90vw;
+    margin: 20px 80px; 
+}
+#misc-page h1{
+    text-align: center;
+    padding-top: 40vh;
 }
